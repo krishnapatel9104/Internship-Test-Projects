@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+        function openMobileNavFunc() {
+            console.log("inside func ");
+            document.getElementById("sideNav").style.display = "block";
+        }
+        function closeMobileNavFunc() {
+            document.getElementById("sideNav").style.display = "none";
+        }
+    </script>
+</head>
+
+<body>
+    <div class="mainWrapper">
+        <!-- header section -->
+        <div class="headerWrapper">
+            <div class="logo">
+                <img src="./images/Bitmap.png" alt="menuIcon" height="52px" width="146px" />
+            </div>
+            <div class="navWrapper">
+                <ul id="topnav" class="topnav">
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Responsibilities</a></li>
+                    <li><a href="#">Country</a></li>
+                    <li><button type="button">Apply Online</button></li>
+                </ul>
+            </div>
+            <div class="icons">
+                <img src="./images/menuIcon.svg" class="menuIcon" id="menuIcon" onclick="openMobileNavFunc()" />
+            </div>
+            <div class="sideNav" id="sideNav">
+                <div class="mobileNavTitle">
+                    <p>Menu</p>
+                    <p>
+                        <img src="./images/close.svg" class="closeIcon" id="closeIcon" onclick="closeMobileNavFunc()" />
+                    </p>
+                </div>
+                <div class="sidenav-menu">
+                    <a href="#">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Our Services</a>
+                    <a href="#">Responsbilities</a>
+                    <a href="#">Country</a>
+                    <a><button type="button">Apply Online</button></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- header1 section -->
+        <div class="header1Wrapper">
+            <div class="textSection">
+                <h1 class="body1text">We Help to <span style="color: #717CFF;">Build</span> Your Dream</h2>
+
+                    <p class="body1p">We are always availed to consult on taking your higher education to the next level
+                        so you can stay competitive in the global world. We welcome the opportunity to work with you
+                        "today" for "tomorrow's" better career solutions.</p>
+
+                    <button class="body1btnApply">Apply Online <span class="arrowspan">&#8594;</span></button>
+            </div>
+
+            <div class="imageSection">
+                <img src="./images/group.png" alt="" class="imagebody1">
+            </div>
+        </div>
+
+        <!-- logo section -->
+        <div class="logoWrapper">
+            <img src="./images/uni1.png" alt="" class="imgbody2">
+            <img src="./images/uni2.png" alt="" class="imgbody2">
+            <img src="./images/uni3.png" alt="" class="imgbody2">
+            <img src="./images/uni4.png" alt="" class="imgbody2">
+        </div>
+
+        <!-- our service section -->
+        <div class="divServices">
+            <div class="serviceContent">
+                <h2 class="h3textservice">Our Services</h2>
+                <pre
+                    class="pre1">We are always availed to consult on taking your higher education to the next level so you can stay competitive in the global world.</pre>
+                <pre class="pre1">We welcome the opportunity to work with you "today" for "tomorrow's"</pre>
+                <pre class="pre1">better career solutions.</pre>
+            </div>
+            <div class="serviceCard">
+                <div class="card1">
+                    <img src="./images/s1.png" alt="" class="imgcardservice">
+                    <h3>Career Counselling</h3>
+                    <p class="paracardtext">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut. Blanditiis quos in minus.</p>
+                    <button class="btnlearn"> Learn More  <span class="learnmorearrow">&#8594;</span></button>
+                </div>
+                <div class="card1">
+                    <img src="./images/s2.png" alt="" class="imgcardservice">
+                    <h3>Career Counselling</h3>
+                    <p class="paracardtext">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut. Blanditiis quos in minus.</p>
+                    <button class="btnlearn"> Learn More  <span class="learnmorearrow">&#8594;</span></button>
+                </div>
+                <div class="card1">
+                    <img src="./images/s3.png" alt="" class="imgcardservice">
+                    <h3>Career Counselling</h3>
+                    <p class="paracardtext">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut. Blanditiis quos in minus.</p>
+                    <button class="btnlearn"> Learn More  <span class="learnmorearrow">&#8594;</span></button>
+                </div>
+                <div class="card1">
+                    <img src="./images/s4.png" alt="" class="imgcardservice">
+                    <h3>Career Counselling</h3>
+                    <p class="paracardtext">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut. Blanditiis quos in minus.</p>
+                    <button class="btnlearn"> Learn More  <span class="learnmorearrow">&#8594;</span></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- news section -->
+        <div class="newsWrapper">
+            <div class="newsContent">
+                <h2 class="h3textservice">News</h2>
+                <pre
+                    class="pre1">We are always availed to consult on taking your higher education to the next level so you can stay competitive in the global world.</pre>
+                <pre class="pre1">We welcome the opportunity to work with you "today" for "tomorrow's"</pre>
+                <pre class="pre1">better career solutions.</pre>
+            </div>
+            <div class="newsCardWrapper">
+                <div class="newscard">
+                    <img src="./images/n1.png" alt="" class="imgnews">
+                    <div class="secondpart">
+                        <div class="divcalender">
+                          <img src="./images/icon.svg" alt="" class="calendericon">
+                          <p class="calendertext">17 Apr 2023</p>
+                        </div>
+                        <h5 class="h5textnews">Come On In. The Water’s Fine</h3>
+                        <p class="paratextnews">Torquem detraxit hosti et quidem faciunt, ut videro; interea hoc epicurus in liberos.</p>
+                    </div>
+                </div>
+                <div class="newscard">
+                    <img src="./images/n2.png" alt="" class="imgnews">
+                    <div class="secondpart">
+                        <div class="divcalender">
+                        <img src="./images/icon.svg" alt="" class="calendericon">
+                        <p class="calendertext">17 Apr 2023</p>
+                        </div>
+                        <h5 class="h5textnews">Come On In. The Water’s Fine</h3>
+                        <p class="paratextnews">Torquem detraxit hosti et quidem faciunt, ut videro; interea hoc epicurus in liberos.</p>
+                    </div>
+                </div>
+                <div class="newscard">
+                    <img src="./images/n3.png" alt="" class="imgnews">
+                    <div class="secondpart">
+                        <div class="divcalender">
+                        <img src="./images/icon.svg" alt="" class="calendericon">
+                        <p class="calendertext">17 Apr 2023</p>
+                        </div>
+                        <h5 class="h5textnews">Come On In. The Water’s Fine</h3>
+                        <p class="paratextnews">Torquem detraxit hosti et quidem faciunt, ut videro; interea hoc epicurus in liberos.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-join-div">
+                <button class="btn-join">Join Here</button>
+            </div>
+        </div>
+
+        <!-- countries section -->
+         <div class="countryWrapper">
+            <div class="countryContent">
+                <h1 class="h3textservice">countries We Covered</h1>
+                <pre
+                    class="pre1">We are always availed to consult on taking your higher education to the next level so you can stay competitive in the global world.</pre>
+                <pre class="pre1">We welcome the opportunity to work with you "today" for "tomorrow's"</pre>
+                <pre class="pre1">better career solutions.</pre>
+            </div>
+            <div class="divcountriescard">
+                <div class="divcardcountries">
+                    <img src="./images/c1.png" alt="" class="imgcountries">
+                    <h5 class="h5textcountries">Study in Australia</h5>
+                    <p class="paratextcountries">Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui rerum hic. Voluptatem maiores voluptatum voluptate porro harum. Facilis</p>
+                </div>
+                <div class="divcardcountries">
+                    <img src="./images/c2.png" alt="" class="imgcountries">
+                    <h5 class="h5textcountries">Study in Australia</h5>
+                    <p class="paratextcountries">Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui rerum hic. Voluptatem maiores voluptatum voluptate porro harum. Facilis</p>
+                </div>
+                <div class="divcardcountries">
+                    <img src="./images/c3.png" alt="" class="imgcountries">
+                    <h5 class="h5textcountries">Study in Australia</h5>
+                    <p class="paratextcountries">Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui rerum hic. Voluptatem maiores voluptatum voluptate porro harum. Facilis</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- testimonial section -->
+        <div class="testimonialWrapper">
+            <div class="testimonialContent">
+                <h1 class="h3textservice">Testimonial</h1>
+                <pre
+                    class="pre1">Torquem detraxit hosti et quidem faciunt, ut et negent satis esse appetendum, alterum. Si sine causa? quae fuerit causa, mox </pre>
+                <pre class="pre1">videro; interea hoc epicurus in liberos.</pre>
+            </div>
+            <div class="divcardtestimonialmain">
+                <div class="cardtestimonial">
+                    <div class="divlogotextmain">
+                        <img src="./images/t1.png" alt="" class="logotestimonial">
+                        <div class="textlogo">
+                        <h5 class="logoname">Harrison Phillips</h5>
+                        <p class="logostudent">student</p>
+                        </div>
+                    </div>
+                    <p class="paratestimonial">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut. Blanditiis quos in minus. Voluptatum quia quia voluptas voluptatem vero ex possimus. Iure et consectetur dolorem dicta accusantium fugiat.</p>
+                </div>
+                <div class="cardtestimonial">
+                    <div class="divlogotextmain">
+                        <img src="./images/t2.png" alt="" class="logotestimonial">
+                        <div class="textlogo">
+                        <h5 class="logoname">Harrison Phillips</h5>
+                        <p class="logostudent">student</p>
+                        </div>
+                    </div>
+                    <p class="paratestimonial">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut. Blanditiis quos in minus. Voluptatum quia quia voluptas voluptatem vero ex possimus. Iure et consectetur dolorem dicta accusantium fugiat.</p>
+                </div>
+                <div class="cardtestimonial">
+                    <div class="divlogotextmain">
+                        <img src="./images/t3.png" alt="" class="logotestimonial">
+                        <div class="textlogo">
+                        <h5 class="logoname">Harrison Phillips</h5>
+                        <p class="logostudent">student</p>
+                        </div>
+                    </div>
+                    <p class="paratestimonial">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut. Blanditiis quos in minus. Voluptatum quia quia voluptas voluptatem vero ex possimus. Iure et consectetur dolorem dicta accusantium fugiat.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer section -->
+        <div class="footerSection">
+            <div class="upperOne">
+                 <div class="leftlogotext">
+                    <img src="./images/flogo.png" alt="" class="imgfooter">
+                    <pre class="prefooter">Lorem ipsum dolor sit amet,</pre>
+                    <pre class="">consectetur adipiscing elit, sed do eiusmod</pre>
+                </div>
+                <div class="rightOne">
+                    <img src="./images/insta.png" alt="" class="sociallogoi">
+                    <img src="./images/facebook.png" alt="" class="sociallogofb">
+                    <img src="./images/twitter.png" alt="" class="sociallogot">
+                </div>
+            </div>
+            <div class="menuItems">
+                <div class="textleft">
+                    <a href="#" class="atext">About Us</a>
+                    <a href="#" class="atext">Responsibilities</a>
+                    <a href="#" class="atext">Our Services</a>
+                    <a href="#" class="atext">Contact</a>
+                </div>
+                <div class="textright">
+                    <a href="#" class="atext">Disclaimer</a>
+                    <a href="#" class="atext">Testimonials</a>
+                    <a href="#" class="atext">Privacy Policy</a>
+                    <a href="#" class="atext">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+        <div class="downone">© 2022 Executive Trade International.</div>
+    </div>
+</body>
+
+</html>

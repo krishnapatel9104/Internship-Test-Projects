@@ -1,0 +1,899 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.mainWrapper{
+    font-family: sans-serif;
+}
+/* header section */
+.headerWrapper{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.navWrapper{
+    width: 45%;
+}
+.topnav{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #3c3838  ;
+    line-height: normal;
+    font-size: 15px;
+    text-align: left;
+}
+.topnav li a{
+    text-decoration: none;
+    color: black;
+}
+.topnav button{
+    color: white;
+    background-color: #717CFF;
+    border: none;
+    padding: 9px;
+    font-weight: 700;
+}
+.icons,.sideNav{
+    display: none;
+}
+.icons .menuIcon{
+    display: none;
+}
+.icons .closeIcon{
+    display: none;
+}
+.mobileNav{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    color: #3c3838  ;
+    line-height: normal;
+    font-size: 15px;
+    text-align: left;
+    position: absolute;
+    margin-top: 20px;
+    height: 100%;
+    overflow: auto;
+    background-color: gray;
+}
+.mobileNav li a{
+    display: block;
+    padding: 15px;
+    color: white;
+}
+.mobileNavTitle{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+}
+.mobileNavTitle p {
+    color: #717CFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sideNav {    
+    padding: 10px 50px 50px 40px;  
+	height: 100vh;    
+	background-color: #F1F2FC;    
+	position: fixed;    
+	top: 0;    
+	right: 0;    
+	overflow-x: hidden;    
+	z-index: 2;    
+	border-radius: 9px 0 0 9px;    
+    width: 60%;
+    height: 100vh;    
+}
+.sidenav-menu{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    gap: 21px;
+}
+.sidenav-menu a{
+    text-decoration: none;
+    color: black;
+}
+.sidenav-menu button{
+    width: 100%;
+    border: 1px solid #717CFF;
+    border-radius: 4px;
+    margin-top: 465px;   
+    background-color: #717CFF;
+    color: white;
+    padding: 10px;
+}
+
+/* header1 section */
+.header1Wrapper{
+    display: flex;
+    padding:0 0 0 50px;
+}
+.textSection {
+    width: 50%;
+}
+
+.imageSection {
+    width: 50%;
+    height: 88vh;
+    overflow: hidden;
+}
+.imageSection img{
+    height: 95vh;
+}
+.body1text {
+    padding-top: 250px;
+    font-size: 65px;
+    font-family: Poppins;
+    padding-left: 150px;
+}
+
+.body1p {
+    padding-left: 150px;
+    padding-right: 40px;
+    color: #7D7D7D;
+    margin-bottom: 40px;
+    font-weight: 100;
+    font-family: Poppins;
+}
+
+.body1btnApply {
+    padding: 8px;
+    padding-left: 20px;
+    border: 0px;
+    margin-left: 150px;
+    background-color: #717CFF;
+    color: white;
+    box-shadow: 1px 1px 2px 2px #717cff;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 110px;
+}
+
+/* logo section */
+.logoWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F1F2FC;
+    padding: 40px;
+}
+
+/* our service section */
+.h3textservice,.pre1{
+    display: flex;
+    justify-content: center;
+}
+.h3textservice{
+    font-family: Poppins;
+    font-weight: 500;
+    margin-top: 46px;
+}
+.pre1{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-weight: 200;
+    font-size: 22px;
+    color: #7D7D7D;
+    line-height: 20px;
+}
+.serviceCard{
+    padding:50px 120px;
+    display: flex;
+    flex-direction: row;
+}
+.card1{
+    border-radius: 10px;
+    box-shadow: 6px 7px 24px #00000030;
+    margin: 30px;
+    padding: 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:20px;
+}
+.card1:hover {
+    border: 2px solid #717CFF;
+}
+.imgcardservice{
+    height: 60px;
+    width: 60px;
+}
+.card1 h3{
+    font-size: 24px;
+}
+.card1 p{
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Poppins';
+    color: #37474FB8;
+}
+.card1 button{
+    background: none;
+    border: none;
+    color: #717CFF;
+    font-size: 17px;
+}
+.divServices{
+    margin-bottom: 50px;
+}
+
+/* news section */
+.newsCardWrapper{
+    padding: 50px 180px;
+    display: flex;
+    justify-content: space-evenly;
+    padding:50px 180px;
+}
+.newsWrapper{
+    color: black;
+    padding: 20px;
+    background-color: #F1F2FC;
+}
+.newsContent pre{
+    color: #000000;
+}
+.newscard{
+    border-radius: 10px;
+    box-shadow: 6px 7px 24px #00000030;
+    background-color: white !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+    width: 350px;
+    height: 450px;
+}
+.paratextnews{
+    font-size: 12px;
+    font-weight: 100;
+    color: #7D7D7D;
+}
+.h5textnews{
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+}
+.imgnews{
+    max-width: 351px;
+    overflow: hidden;
+}
+.divcalender{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    color: #565656;
+}
+.secondpart{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    margin-top: 15px;
+    gap:20px;
+}
+.btn-join-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+.btn-join{
+    color: white;
+    background-color: #717CFF;
+    padding: 12px 58px;
+    border: none;
+    font-size: 17px;
+    font-weight: 300;
+    font-family: 'Poppins';
+}
+
+/* countries section */
+.divcountriescard{
+    display: flex;
+    align-items: center;
+    padding: 50px 180px;
+    justify-content: space-around;
+}
+.divcardcountries{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    margin: 40px;
+}
+.divcardcountries img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.h5textcountries{
+    font-size: 25px;
+}
+.paratextcountries{
+    font-size: 16px;
+    font-weight: 100;
+    color: #37474FB8;
+    font-family: 'Poppins';
+}
+
+/* testimonial section */
+.divcardtestimonialmain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 180px;
+}
+.cardtestimonial{
+    margin: 20px;
+    box-shadow: 0px 0px 77px #0000000f;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    text-align: left;
+}
+.divlogotextmain{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.textlogo{
+    margin-top: 15px;
+}
+.paratestimonial{
+    font-family: Poppins;
+    color: #7D7D7D;
+}
+.logoname{
+    font-size: 24px;
+    color: #37474F;
+    font-weight: 600;
+}
+.logostudent{
+    font-size: 12px;
+    color: #7D7D7D;
+    font-weight: 100;
+    font-family: 'Poppins';
+}
+.paratestimonial{
+    font-size: 16px;
+    color: #37474FB8;
+}
+.testimonialWrapper{
+    margin-bottom: 75px;
+}
+
+/* footer section */
+.footerSection{
+    color: white;
+    background-color: #717CFF;
+    padding: 70px 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.downone{
+    background-color: #717CFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.upperOne{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.rightOne{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.menuItems{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    padding-right: 100px;
+}
+.textleft,.textright{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 16px;
+}
+.textleft a,.textright a{
+    text-decoration: none;
+    color: white;
+}
+.leftlogotext .prefooter{
+    margin-top: 20px;
+}
+
+/* mobile view */
+@media screen and (max-width:600px){
+    .card1{
+        gap: 10px;
+    }
+    .card1 img{
+        height: 40px;
+        width: 40px;
+    }
+    .card1 h3{
+        font-size: 16px;
+    }
+    .card1 p{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .icons{
+        display: block;
+    }
+    .icons .menuIcon{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .navWrapper{
+        display: none;
+    }
+    .headerWrapper{
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 50px;
+    }
+    .header1Wrapper{
+        margin-top: 25px;
+    }
+    .logoWrapper{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .serviceCard{
+        display: grid !important;
+        grid-template-columns: auto auto;
+        gap: 12px;
+        padding: 0px;
+    }
+    .footerSection{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .upperOne{
+        flex-direction: row;
+        margin-bottom: 30px;
+        justify-content: space-between;
+    }
+    .leftlogotext img{
+        width: 150px;
+    }
+    .rightOne{
+        width: 30px;
+        height: 30px;
+        transform: translate(-113px, 10px);
+    }
+    .menuItems{
+        justify-content: space-between;
+        padding: 0px;
+    }
+    .divcardtestimonialmain{
+        overflow: scroll;
+        justify-content: inherit;
+        padding: 0;
+    }
+    .pre1{
+        text-align: center;
+        font-size: 16px;
+        overflow: hidden;
+    }
+    .h3textservice{
+        font-size: 22px;
+    }
+    .divcountriescard{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 20px;
+        justify-content: initial;
+    }
+    .divcardcountries{
+        margin: 10px;
+    }
+    .h5textcountries{
+        font-size: 14px;
+    }
+    .paratextcountries{
+        font-size: 12px;
+    }
+    .newsCardWrapper{
+        overflow: scroll;
+    }
+    .serviceCard{
+        gap: 0;
+        padding: 20px;
+    }
+    .card1{
+        margin: 10px;
+        padding: 20px;
+        gap: 10px;
+    }
+    .body1p{
+        line-height: 15px;
+        overflow: hidden;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 11px;
+        margin-bottom: 23px;
+    }
+    .body1text{
+        padding-top: 50px;
+        padding-left: 0;
+        font-size: 20px;
+    }
+    .imageSection{
+        height: 32vh;
+    }
+    .imageSection img{
+        height: 35vh;
+    }
+    .body1btnApply{
+        margin-left: 0;
+    }
+    .body1btnApply{
+        margin-bottom: 50px;
+    }
+    .logoWrapper{
+        padding: 15px;
+    }
+    .imgbody2 {
+        width: 70px;
+        height: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:768px){
+    .paratextcountries{
+        line-height: 17px;
+        font-size: 12px;
+    }
+    .card1{
+        gap: 10px;
+    }
+    .card1 img{
+        height: 40px;
+        width: 40px;
+    }
+    .card1 h3{
+        font-size: 16px;
+    }
+    .card1 p{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .headerWrapper{
+        padding: 0 55px;
+        justify-content: space-between;
+    }
+    .pre1{
+        overflow: hidden;
+    }
+    .divcountriescard{
+        padding: 20px;
+        justify-content: initial;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .divcardcountries{
+        margin: 20px;
+        gap: 10px;
+    }
+    .divcardtestimonialmain{
+        padding: 0;
+        justify-content: initial;
+        overflow: scroll;
+    }
+    .footerSection{
+        padding: 20px;
+    }
+    .leftlogotext img{
+        width: 170px;
+    }
+    .menuItems{
+        gap: 30px;
+        padding-right: 0;
+    }
+    .textleft{
+        font-size: 14px;
+    }
+    .pre1{
+        font-size: 16px;
+    }
+    .h3textservice{
+        font-size: 24px;
+    }
+    .newsCardWrapper{
+        justify-content: initial;
+        overflow: scroll;
+        padding: 0;
+    }
+    .serviceCard{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .card1{
+        margin: 10px;
+    }
+    .logoWrapper{
+        justify-content: space-between;
+        padding: 15px;
+    }
+    .logoWrapper img{
+        height: 50px;
+        width: 130px;
+    }
+    .header1Wrapper{
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .body1text{
+        padding-top: 50px;
+        font-size: 22px;
+        padding-left: 0;
+    }
+    .body1p{
+        padding-right: 20px;
+        padding-left: 0;
+    }
+    .body1btnApply{
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+    .imageSection{
+        height: 41vh;
+    }
+    .imageSection img{
+        height: 50vh;
+    }
+    .icons{
+        display: block;
+    }
+    .icons .menuIcon{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .navWrapper{
+        display: none;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1000px){
+    .paratestimonial{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .paratextcountries{
+        font-size: 12px;
+    }
+    .card1{
+        gap: 10px;
+    }
+    .card1 img{
+        height: 40px;
+        width: 40px;
+    }
+    .card1 h3{
+        font-size: 16px;
+    }
+    .card1 p{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .sideNav{
+        width: 40%;
+    }
+    .icons{
+        display: block;
+    }
+    .icons .menuIcon{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .navWrapper{
+        display: none;
+    }
+    .headerWrapper{
+        justify-content: space-between;
+        padding: 0 110px !important;
+    }
+    .pre1{
+        overflow: hidden;
+        font-size: 16px;
+    }
+    .footerSection{
+        padding: 50px;
+    }
+    .divcountriescard{
+        justify-content: initial;
+        padding: 20px;
+    }
+    .divcardcountries{
+        margin: 20px;
+    }
+    .newsCardWrapper{
+        overflow: scroll;
+    }
+    .serviceCard{
+        padding: 20px;
+    }
+    .card1{
+        margin: 10px;
+        padding: 20px;
+    }
+    .logoWrapper{
+        padding: 15px;
+    }
+    .logoWrapper img{
+        height: auto;
+        width: 170px;
+    }
+    .header1Wrapper{
+        margin-top: 30px;
+    }
+    .body1text{
+        padding-top: 75px;
+        font-size: 55px;
+        padding-left: 55px;
+    }
+    .body1p{
+        padding-left: 55px;
+    }
+    .body1btnApply{
+        margin-bottom: 140px;
+        margin-left: 55px;
+    }
+    .imageSection{
+        height: 70vh;
+    }
+    .imageSection img{
+        height: 75vh;
+    }
+    .headerWrapper{
+        padding: 0 55px;
+    }
+    .navWrapper{
+        width: 60%;
+    }
+    .divcardtestimonialmain{
+        padding: 20px 20px;
+    }
+    .h3textservice{
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1200px){    
+    .card1{
+        gap: 10px;
+    }
+    .card1 img{
+        height: 40px;
+        width: 40px;
+    }
+    .card1 h3{
+        font-size: 16px;
+    }
+    .card1 p{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .paratestimonial{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .logoWrapper{
+        padding: 15px;
+    }
+    .logoWrapper img{
+        height: 60px;
+        width: 200px;
+    }
+    .pre1{
+        overflow: hidden;
+        font-size: 18px;
+    }
+    .divcountriescard{
+        padding: 0;
+    }
+    .serviceCard{
+        padding: 20px;
+    }
+    .card1{
+        margin: 15px;
+    }
+    .body1text{
+        padding-top: 150px;
+        font-size: 55px;
+        padding-left: 55px;
+    }
+    .body1p{
+        padding-left: 55px;
+    }
+    .body1btnApply{
+        margin-bottom: 170px;
+        margin-left: 55px;
+    }
+    .imageSection{
+        height: 70vh;
+    }
+    .imageSection img{
+        height: 75vh;
+    }
+    .navWrapper{
+        width: 50%;
+    }
+    .newsCardWrapper{
+        overflow: scroll;
+    }
+    .header1Wrapper{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1500px){
+    .pre1{
+        overflow: hidden;
+        font-size: 18px;
+    }
+    .divcardtestimonialmain{
+        padding: 40px;
+    }
+    .divcountriescard{
+        padding: 0;
+    }
+    .serviceCard{
+        padding: 30px;
+    }
+    .card1{
+        margin: 15px;
+    }
+    .logoWrapper{
+        padding: 15px;
+    }
+    .logoWrapper img{
+        height: auto;
+        width: 190px;
+    }
+    .header1Wrapper{
+        margin-top: 30px;
+    }
+    .body1text{
+        font-size: 57px;
+        padding-left: 110px;
+        padding-top: 150px;
+    }
+    .body1p{
+        padding-left: 110px;
+    }
+    .body1btnApply{
+        margin-left: 110px;
+        margin-bottom: 210px;
+    }
+    .imageSection{
+        height: 70vh;
+    }
+    .imageSection img{
+        height: 75vh;
+    }
+}
